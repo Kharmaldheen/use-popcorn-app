@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 // import { useState } from "react";
-// import { useKEY } from "../../useKey";
+import { useKEY } from "../../useKey";
 
 const Search = ({ query, setQuery }) => {
   const inputEl = useRef(null);
